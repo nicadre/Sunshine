@@ -28,8 +28,8 @@ public class SettingsActivity extends PreferenceActivity
 
         onPreferenceChange(preference,
                 PreferenceManager
-        .getDefaultSharedPreferences(preference.getContext())
-        .getString(preference.getKey(), ""));
+                        .getDefaultSharedPreferences(preference.getContext())
+                        .getString(preference.getKey(), ""));
     }
 
     @Override
